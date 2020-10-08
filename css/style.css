@@ -85,3 +85,37 @@ body {
 #features .feature-item p {
   color: #afafaf;
 }
+
+/* Pricing */
+#pricing {
+  padding: 4% 15%;
+}
+
+#pricing .row {
+  padding: 3% 2%;
+}
+
+#pricing .card {
+  text-align: center;
+  height: 380px;
+}
+
+#pricing .card-1 .btn,
+#pricing .card-2 .btn {
+  margin-top: 3.4rem;
+}
+
+.btn-purple {
+  background-color: #7579e7;
+  color: white;
+}
+
+.btn-outline-purple {
+  background-color: white;
+  border-color: #7579e7;
+}
+
+.btn-outline-purple:hover {
+  background: #7579e7;
+  color: white;
+}
