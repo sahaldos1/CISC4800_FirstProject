@@ -135,3 +135,20 @@ body {
   margin-bottom: 3rem;
   font-family: "Montserrat-Black", sans-serif;
 }
+
+/* Footer */
+#footer {
+  text-align: center;
+  color: #afafaf;
+  padding: 3% 15%;
+}
+
+#footer .fab,
+#footer .fas {
+  margin: 1rem 1rem;
+}
+
+#footer .fab:hover,
+#footer .fas:hover {
+  color: #7579e7;
+}
