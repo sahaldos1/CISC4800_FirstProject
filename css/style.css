@@ -16,6 +16,12 @@ body {
   padding-bottom: 7%;
 }
 
+#title .col-lg-6 h1 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
 /* Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -34,4 +40,14 @@ body {
 .navlink {
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
+}
+
+/* download buttons */
+.row .header-text .btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* showcase image */
+.row .col-lg-6 img {
+  border-radius: 5px;
 }
