@@ -24,6 +24,42 @@
       rel="stylesheet"
     />
 
+    <!-- using internal css -->
+    <style>
+      /* features */
+      #features {
+        background: white;
+        position: relative;
+      }
+
+      #features .row {
+        padding: 4rem 0;
+      }
+
+      #features .feature-item {
+        text-align: center;
+        padding: 1rem;
+      }
+
+      #features .feature-item .icon {
+        margin-bottom: 1rem;
+        color: #9ab3f5;
+      }
+
+      #features .feature-item .icon:hover {
+        color: #7579e7;
+      }
+
+      #features .feature-item h3 {
+        font-weight: bolder;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      #features .feature-item p {
+        color: #afafaf;
+      }
+    </style>
+
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -64,7 +100,10 @@
 
         <div class="row">
           <div class="col-lg-6 header-text">
-            <h1>Technique at the tips of your fingers</h1>
+            <!-- using inline css -->
+            <h1 style="font-weight: bolder">
+              Technique at the tips of your fingers
+            </h1>
             <button type="button" class="btn btn-dark btn-lg">
               <i class="fab fa-apple"></i> Download
             </button>
