@@ -119,3 +119,19 @@ body {
   background: #7579e7;
   color: white;
 }
+
+/* Call to Action */
+#cta {
+  background-color: #7579e7;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  font-family: "Montserrat-Black", sans-serif;
+}
